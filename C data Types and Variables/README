@@ -1,0 +1,60 @@
+C data types are declaration for variables, and this determines the type, size and operations perform in a variable.
+
+Data type in c are classified as 
+
+1. User defined data types
+2. Primary data types
+3. Secondary data types
+
+Primary data types
+  
+Primary data types or basic data types are the data types which are already defined in the system.
+   for example- int,float,char,double.
+   
+Secondary data types
+
+Secondary data types are the data types derived from the original data types.
+  for example- array,pointers, etc.
+  
+User defined data types
+
+User defined data type are the typical data type that we can derived out of any existing data type in a program.
+  for example- structure, union, enum..etc
+  
+Now let us discuss the data types in detail 
+
+When we discuss about data types we can consider two things the range of a variable and its size.
+size is compiler dependent and you can find the size of a data type in your compiler by using sizeof operatior for example, sizeof(int).
+And the range which is the maximum and minimum value supported for the data type by the can be calculated by the formula.
+For signed data types, use formula -2^(n-1) to (2^(n-1))-1.
+For unsigned data types, the range will be 0 to (2^n) – 1.
+
+now you might be wondering what is signed and unsigned data types
+unsigned variables are the varibles that hold only positive numbers.
+and signed data types are the data types that hold negative and positive values.
+
+Integer can be further classified as short int, long int, unsigned short int, and unsigned long int.
+Short int and long int differ in terms of amount of memory it used to occupies a value, infact the amount of memory depends on the compiler.
+in dev cpp compiler, short int occupies 2 bytes. long and unsigned long int occupies 4 bytes.and is the same for float except it can hold real numbers.
+
+char is used to store a character and it generally takes 1bytes of memory.
+
+
+Variable
+
+A variable is nothing but a name given to a storage area that our program can manipulate.Each variable in c has a specific layout of the variables memory.
+
+example-int i,here i is a variable.
+
+Lvalues and Rvalues in C
+
+There are two kinds of expressions in C:
+1. lvalue: An expression that is an lvalue may appear as either the left-hand or right-hand
+side of an assignment.
+2. rvalue: An expression that is an rvalue may appear on the right- but not left-hand side
+of an assignment.
+
+
+
+
+
