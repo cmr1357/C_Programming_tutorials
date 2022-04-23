@@ -1,0 +1,65 @@
+Constants
+
+The constants refered to a fixed value that the program may not alter during the execution.
+Constants can be of any data type like an integer constant, float point constant, and char constant.
+
+Literals
+
+Literals are the constant values assign to the constant variables we can also say that it is afixed value that cannot be changed.
+
+An Integer literal
+
+An integer literal can be a decimal, octal, or hexadecimal constant.
+
+some examples are
+55      // decimal 
+0213    // octal 
+0x4b    // hexadecimal 
+30      // int 
+30u     // unsigned int 
+30l     // long 
+30ul    // unsigned long 
+
+Floating point literals
+
+floating point literals has an integer part, decimal part and exponent part.
+
+some examples are
+3.14159 
+314159E-5L 
+
+Character constants
+
+Character literals are enclosed in single quotes 'a' and can be stored in a simple
+variable of char type.There are certain charaters in c preceded by backslash have a special meaning in c.
+
+example:-'/n'-new line, '/t'-one tab space.
+
+String literals
+
+String literals or constants are enclosed in double quotes. 
+
+some examples of string literals are
+
+Here are some examples of string literals. All the three forms are identical strings.
+"Hello, World"
+"Hello, \
+World"
+"Hello, " "W" "orld"
+
+Defining Constants
+
+There are two simple ways in C to define constants:
+1. Using #define preprocessor.
+  We will discuss this in details in another section.
+2. Using const keyword.
+  for example -const pi=3.14;
+  
+  Refer the attachment programs for detail understanding.
+  
+
+
+
+
+
+
