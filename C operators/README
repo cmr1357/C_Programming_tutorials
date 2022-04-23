@@ -1,0 +1,89 @@
+Operators
+
+An operators are logical symbols that tells the compiler to perform certain mathematical and logical operations.
+
+The operators available in c language are given below
+
+1. Arithmetic operators
+2. Logical operators
+3. Relational operators
+4. Bitwise operators
+5. Assignment operators
+
+Airtmetic operators
+
+Arithmetic operators perform mathematical operations such us addition, substraction..etc
+
+following are the arithmetic operators 
+-----------------------------------------------------------------------------------
+|Operator | Description                                                 |Example  |
+-----------------------------------------------------------------------------------
+| +       | Add two operants                                            |A+B      |
+-----------------------------------------------------------------------------------
+| -       | Subtract second operant from the first                      |A-B      |
+-----------------------------------------------------------------------------------
+| *       | Multiply two operands                                       |A*B      |
+-----------------------------------------------------------------------------------
+| /       | Devide numerator by denominator                             |A/B      |
+-----------------------------------------------------------------------------------
+| %       | Modulus operator returns remainder after integer division   |A*B      |
+-----------------------------------------------------------------------------------
+| ++      | Increment operator increment the value by 1                 |A++      |
+-----------------------------------------------------------------------------------
+| --      | Decrement operator decrement the value by 1                 |A--      |
+----------------------------------------------------------------------------------- 
+
+Logical operators
+
+The logical operators are used to perform logical operations of a given function.
+
+The logial operators are.
+
+-----------------------------------------------------------------------------------------
+|Operator | Description                                                 |Example        |
+-----------------------------------------------------------------------------------------
+|         |  Logical and operation.                                     | A && B true   |
+|&&       |  If both operands are non zero the condition become true.   |               |
+-----------------------------------------------------------------------------------------
+|         | Logical and operation.                                      | A || B true   |
+|||       | If any operand is a non zero the condition become true.     |               |
+-----------------------------------------------------------------------------------------
+|         | Logical not. Reverse the logigal state of its operand       | A !           |
+|!        | If A is true then A changes to false.                       |               |
+-----------------------------------------------------------------------------------------
+
+Relational operators
+
+A relational operator is used to check the relationship between two operants
+
+following are the relational operators 
+
+-----------------------------------------------------------------------------------------
+|Operator | Description                                                 |Example        |
+-----------------------------------------------------------------------------------------
+|         |  Check if the value of two operant are the same.            | A == B true   |
+|==       |  If same it returns true else returns false.                |               |
+-----------------------------------------------------------------------------------------
+|         | Check if the value of two operant are the same.             | A != B true   |
+|!=       |  If same it returns false else returns true.                |               |
+-----------------------------------------------------------------------------------------
+|         | Check if the value of left operand is greater than the      | A > B true    |
+|>        | value of  right operand, if yes return true.                |               |
+-----------------------------------------------------------------------------------------
+|         | Check if the value of right operand is greater than the     | A < B true    |
+|<        | value of  left operand, if yes return true.                 |               |
+-----------------------------------------------------------------------------------------
+|         | Check if the value of left operand is greater than or       | A >= B true   |
+|>=       | equal to  value of  right operand,if yes return true.       |               |
+-----------------------------------------------------------------------------------------
+|         | Check if the value of right operand is greater than the     | A <= B true   |                                                        |         |
+|<=       | Add two operants                                            |               |
+-----------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
