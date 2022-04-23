@@ -1,0 +1,80 @@
+Storage Classes
+
+storage classes in c define the scope and life time of a variables in c.
+
+The storage classes which can be used in c program are
+
+1. auto 
+2. register
+3. static
+4. extern
+
+The auto storage class
+
+
+The auto storage class is the default storage class for all local variables in c.
+
+for example
+
+int value=10;
+auto int value=20;
+
+are the same storage classes in c.
+
+
+The register Storage Class
+
+
+The register storage class the values are stored in CPU registers instead of RAM where normal variables are stored.  
+The register should only be used for variables that require quick access such as counters.Where the value should be stored also depends on hardware.
+
+example:-register int count;
+
+
+The static storage classes
+
+The static storage class instructs the compiler to keep a local variable in existence during
+the life-time of the program instead of creating and destroying it each time it comes into
+and goes out of scope. 
+
+for example
+
+static int count=5;
+
+we will discuss the scope of a variable in detail in upcoming leatures.
+
+
+The external storage class
+
+
+The extern storage class is used to give a reference of a global variable that is visible to
+all the program files. 
+
+for example
+
+first code
+number.h
+
+extern int a=10;
+extern b=20;
+
+Note: please note that the extension when you save the fole it is .h.
+
+second code
+
+sum.c
+
+#include<stdio.h>
+#include<number.h>
+int main()
+{
+  int sum=a+b;
+  printf("sum=%d",sum);
+  return 0;
+ }
+ 
+ the result of the following program will be 30.
+ 
+ you can also find the uploaded code above.
+ 
+
