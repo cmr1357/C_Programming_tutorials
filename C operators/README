@@ -76,13 +76,77 @@ following are the relational operators
 |         | Check if the value of left operand is greater than or       | A >= B true   |
 |>=       | equal to  value of  right operand,if yes return true.       |               |
 -----------------------------------------------------------------------------------------
-|         | Check if the value of right operand is greater than the     | A <= B true   |                                                        |         |
+|         | Check if the value of right operand is greater than the     | A <= B true   |                                                      
 |<=       | Add two operants                                            |               |
 -----------------------------------------------------------------------------------------
 
+Bitwise operators
+
+Bitwise operator work on bits and perform bit by bit operation
+
+-----------------------------------------------------------------------------------------
+|Operator | Description                                                 |Example        |
+-----------------------------------------------------------------------------------------
+|         |  Perform binary and operation.                              | A & B         |
+| &       |                                                             |               |
+-----------------------------------------------------------------------------------------
+|         | Perform binary or operation.                                | A | B         |
+|  |      |                                                             |               |
+-----------------------------------------------------------------------------------------
+|         | Perform binary or operation.                                | A ^ B         |
+| ^       |                                                             |               |
+-----------------------------------------------------------------------------------------
+|         | Perform binary ones complement.                             | ~A            |
+| ~       |                                                             |               |
+-----------------------------------------------------------------------------------------
+|         |  Perform binary left shift.                                 | A >> B        |
+| >>      |                                                             |               |
+-----------------------------------------------------------------------------------------
+|         |  Perform binary right shift.                                | A << B        |                                                       
+| <<      |                                                             |               |
+-----------------------------------------------------------------------------------------
+
+Assignment operators
+
+Assignment operators assign values from right side operands to left side operands.
 
 
-
+-------------------------------------------------------------------------------------------------------
+|Operator | Description                                                 |Example                      |
+-------------------------------------------------------------------------------------------------------
+|         |  Simple assignment operator assign values from right side   | A = B                       |
+| =       |  to left side.                                              |                             |
+-------------------------------------------------------------------------------------------------------
+|         | Add and assign operator, It add leftside value to rightside | A += B                      |
+|  +=     |  and assign to left side.                                   |                             |
+-------------------------------------------------------------------------------------------------------
+|         | Subtract and assign operator, It subtract leftside value to | A += B                      |
+| -=      | rightside and assign to left side.                          |                             |
+-------------------------------------------------------------------------------------------------------
+|         | Multiply and assign operator, It multiply leftside value to | A *= B                      |
+| *=      | rightside and assign to left side.                          |                             |
+-------------------------------------------------------------------------------------------------------
+|         | Divide and assignment operator, It divide leftside value to | A /= B                      |
+| /=      | right side and assign the quotent to A.                     |                             |
+-------------------------------------------------------------------------------------------------------
+|         | Modulus and assignment operator, It divide leftside value to| A %= B                      |                                                       
+| %=      | right side and assign the remainder to A.                   |                             |
+-------------------------------------------------------------------------------------------------------
+|         | Rightshift and assignment operator.                         | A >>= B                     |
+| >>=     |                                                             |                             |
+-------------------------------------------------------------------------------------------------------
+|         | Leftshift and assignment operator.                          | A <<= B                     |                                                       
+| <<=     |                                                             |                             |
+-------------------------------------------------------------------------------------------------------
+|         |  Bitwise and assignment operator.                           | A &= B                      |
+|&=       |                                                             |                             |
+-------------------------------------------------------------------------------------------------------
+|         |  Bitwise xor assignment operator.                           | A ^= B                      |                                                       
+| ^=      |                                                             |                             |
+-------------------------------------------------------------------------------------------------------
+|         | Bitwise or assignment operator.                             | A |= B                      |
+| |=      |                                                             |                             |
+-------------------------------------------------------------------------------------------------------
 
 
 
