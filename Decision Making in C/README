@@ -1,11 +1,11 @@
-Decision making in C or conditionals.
+# *Decision making in C or conditionals* #
 
-We all make some simple decisions like which clothes to where to very important decisions like chosing our life partner in our life.
+We all make some simple decisions like, which clothes to where to very important decisions like chosing our life partner in our life.
 
-Now, the question is how computer take decisions?
+Now, the question is how computer make decisions?
 
-Yes here comes the importance of decision making in C or any other programing language.
-and we have different types of decision making statements.
+Yes, here comes the importance of decision making in C or any other programing language.
+In C we have different types of decision making statements.
 
 for example
 
@@ -14,4 +14,145 @@ for example
 3. Nested if statement
 4. if else if
 5. switch statements
+
+if statement
+
+syntax:-
+
+if(condition)
+
+{
+statement1;
+statement2;
+
+}
+
+if the condition in the bracket returns true then the statements in the braces get executed. 
+if the condition returns false then the compiler skip the statements writen in the braces.
+
+for example-
+
+int A=13,B=10;
+
+if(A>B)
+{
+  printf("A>B");
+  
+ }
+ printf("Done");
+ 
+ in this example 13 and 10 are assigned to the variable A and B respectively.
+ The condition A>B  returns true since 13>10. so the output of the program will be.
+ 
+ Output:- A>B Done.
+ 
+ if else statement
+
+syntax:-
+
+if(condition)
+
+{
+ifstatement1;
+ifstatement2;
+
+}
+else
+{
+elsestatement1;
+elsestatement2;
+}
+
+
+In this type of statements if the condition inside the bracket returns true then the statements in the braces get executed. 
+if the condition returns false then the compiler skip the ifstatements and execute the elsestatements. 
+
+
+Nested if statement
+
+syntax:-
+
+if(condition1)
+
+{
+  if(condition2)
+  {
+    ifstatement1;
+    ifstatement2;
+   }
+
+}
+
+The name nested if because an if statement inside another if statement.
+In sted if statements if the condition1 satisfy it will check for condition2 and if it also satisfy then the if statements get executed. 
+
+if else if statements
+
+syntax:-
+
+if(condition1)
+
+{
+ 
+    ifstatement1;
+    ifstatement2;
+ }
+ elseif(condition2)
+ {
+  
+    elseifstatement1;
+    elseifstatement2;
+
+}
+else
+{
+    elsestatement1;
+    elsestatement2;
+
+}
+
+In if elseif statement first condition1 in the if statement will check, 
+if it is false then it will check condition2 if condition2 returns true the elseifstatents get executed ellse the else statements get executed.
+
+switch statements
+
+syntax:-
+
+switch(expression)
+{
+  case caseconstant1:
+                      statements;
+                      break;
+  case caseconstant2:
+                      statements;
+                      break;
+  default:            
+                      statements;
+                      break;
+}
+
+Now let us explain the switch statement with an example;
+
+int i=10
+switch(i)
+{
+  case 5:
+                      printf("In case 5");
+                      break;
+  case 10:
+                      printf("In case 10");
+                      break;
+  default:            
+                      printf("In default");
+                      break;
+}                 
+                      
+
+in this example the value of variable i is initialised as 10. And we are passing the variable i in the switch statement.
+The output of the program will be, In case 10 because the case constant 10 matches with the expression inside the switch statement.
+
+You can find more practice problems are uploaded.
+ 
+
+
 
