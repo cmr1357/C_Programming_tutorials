@@ -1,0 +1,60 @@
+C Loops
+
+  There are several situation we need to execute a block of code several number of times.Thent se is done with the help of loops.
+  In C we have different types of loops. 
+  
+  1. While loop
+  2. for loop
+  3. do while loop
+  4. nested while loop
+  5. nested for loop
+  6. nested do while loop
+  
+  
+  while loop
+  
+    while loop repeatedly execute a group of statement until certain condition is true.
+    
+    syntax:-
+    
+    initialize loop variable;
+    while(condition)
+    {
+      statements;
+      increment/decrement lop variable;
+      
+     }
+     
+     for loop
+     
+     for loop repeatedly execute a group of statement until certain condition is true.
+     
+     
+     syntax:-
+     
+     for(initialize;condition;increment/decrement)
+     {
+        syntax;
+        
+      }
+      
+      do while loop
+      
+      do while loop is similar to while loop except the condition that it is garanteed to execute once.
+      
+      syntax:-
+      
+      do
+      {
+        statements;
+        
+       }while(condition);
+       
+       
+       Nested loop in c
+       
+       Nested 
+      
+      
+     
+  
