@@ -1,0 +1,7 @@
+# Break statement 
+    
+    A break statement in c has two usage 
+    
+    1. When a break statement is used inside a loop the loop immediately terminated and the program control goes back into the next statement following the loop.
+    
+    2.In switch case we are using the break statement to terminate a case.
