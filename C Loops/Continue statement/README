@@ -1,0 +1,39 @@
+Continue statement
+
+The continue statement in c is used to force the next iteration of the loop.
+
+for example:-
+
+int main()
+{
+  int a=10;
+  
+  do
+  {
+    if(a==12)
+    {
+      a++;
+      continue;
+      printf("a=%d\n",a);
+      
+    }
+    printf("The value of a=%d\n",a);
+    a++;
+   }while(a<15);
+   
+   return 0;
+   }
+   
+   In this program the output will be 
+   
+   The value of a= 10
+   The value of a= 11
+   The value of a= 13
+   The value of a= 14
+   
+   In this program the continue statement inside if will force the program to start over in the loop and resulted skip printing the statement value of a =12.
+   
+   more problems is attached.
+   
+   
+   refer the practice problem .
