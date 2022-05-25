@@ -25,6 +25,25 @@ We humans can interact with each other verbally and physically using the languag
 
 If you are a beginner, I strongly recommend following the order written below and practicing all exercises for better understanding.
 
+1.	C Structure and basic syntax.
+2.	C Data types and variables.
+3.	C Constant and literals.
+4.	C Storage classes.
+5.	C Operators.
+6.	Decision making in C.
+7.	C Loops.
+8.	C Functions.
+9.	C Scope rule.
+10.	C Arrays.
+11.	C Pointers.
+12.	C Structures.
+13.	C Unions.
+14.	C Preprocessor.
+15.	C Enum and Typedef.
+16.	C Files.
+17.	C Dynamic memory allocation.
+18.	C Data structures.
+
 
 
 
