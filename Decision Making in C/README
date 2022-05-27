@@ -1,15 +1,15 @@
-# *Decision making in C or conditionals* #
+# Decision making in C or conditionals #
 
-We all make some simple decisions like, which clothes to where to very important decisions like chosing our life partner in our life.
+We all make some simple decisions like, which clothes to wear to very important decisions like choosing our life partner in our life.
 
-Now, the question is how computer make decisions?
+Now, the question is how computers make decisions?
 
-Yes, here comes the importance of decision making in C or any other programing language.
-In C we have different types of decision making statements.
+Yes, here comes the importance of decision-making in C.
+In C we have different types of decision-making statements.
 
 for example
 
-1. if statement
+1. if  statement
 2. if else statement
 3. Nested if statement
 4. if else if
@@ -27,8 +27,8 @@ statement2;
 
 }
 
-if the condition in the bracket returns true then the statements in the braces get executed. 
-if the condition returns false then the compiler skip the statements writen in the braces.
+If the condition in the bracket returns true then the statements in the braces get executed. 
+If the condition returns false then the compiler skips the statements written in the braces.
 
 for example-
 
@@ -41,7 +41,7 @@ if(A>B)
  }
  printf("Done");
  
- in this example 13 and 10 are assigned to the variable A and B respectively.
+In this example, 13 and 10 are assigned to a variable A and B respectively.
  The condition A>B  returns true since 13>10. so the output of the program will be.
  
  Output:- A>B Done.
@@ -64,8 +64,8 @@ elsestatement2;
 }
 
 
-In this type of statements if the condition inside the bracket returns true then the statements in the braces get executed. 
-if the condition returns false then the compiler skip the ifstatements and execute the elsestatements. 
+In this type of statement, if the condition inside the bracket returns true then the statements in the braces get executed. 
+if the condition returns false then the compiler skips the if statements and execute the else statements. 
 
 
 Nested if statement
@@ -83,8 +83,8 @@ if(condition1)
 
 }
 
-The name nested if because an if statement inside another if statement.
-In sted if statements if the condition1 satisfy it will check for condition2 and if it also satisfy then the if statements get executed. 
+The name nested if because of an if statement inside another if statement.
+Instead, if statements if condition1 satisfies it will check for condition2, and if it also satisfies then the if statements get executed. 
 
 if else if statements
 
@@ -111,8 +111,8 @@ else
 
 }
 
-In if elseif statement first condition1 in the if statement will check, 
-if it is false then it will check condition2 if condition2 returns true the elseifstatents get executed ellse the else statements get executed.
+In if else if statement first condition1 in the if statement will check, 
+if it is false then it will check condition2 if condition2 returns true then else if statements get executed else the else statements get executed.
 
 switch statements
 
@@ -148,10 +148,10 @@ switch(i)
 }                 
                       
 
-in this example the value of variable i is initialised as 10. And we are passing the variable i in the switch statement.
+In this example the value of variable i is initialized as 10. And we are passing the variable i in the switch statement.
 The output of the program will be, In case 10 because the case constant 10 matches with the expression inside the switch statement.
 
-You can find more practice problems are uploaded.
+You can find more practice problems uploaded.
  
 
 
