@@ -1,11 +1,11 @@
-# C Arrays #
+# C Arrays 
 
 Friends, until now we used different variables to store different data?
 What if we want to store a collection of data?
 
 In C, we have a  data structure called the array, which can store a fixed size sequential collection of elements of the same type.
 
-## Declaring Arrays in C ##
+## Declaring Arrays in C 
 
 type arrayName [arraysize];
 
@@ -15,13 +15,13 @@ int array1[20]
    
    The array is named array1, and it can store 20 integers.
     
-## Initializing Arrays ##
+## Initializing Arrays 
 
 int array1[5]={1,2,3,4,5};
 
 array1 is initialized with values 1 to 5.
 
-## Accessing Array Elements ##
+## Accessing Array Elements 
 
 Array elements are accessed using indexing. 
 
