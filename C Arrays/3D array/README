@@ -1,1 +1,7 @@
+# 3D array
+
+ A 3D array is a multi-dimensional array(array of arrays). A 3D array can be explained as a collection of 2D arrays.
+ A 3D array can be specified using three subscripts. Block size, row size, and column size.
+ 
+ The program attached explains how to initialise and print 3D arrays.
 
