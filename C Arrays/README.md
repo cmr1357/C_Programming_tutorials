@@ -1,6 +1,6 @@
 # C Arrays 
 
-Friends, until now we used different variables to store different data?
+Friends, until now we used different variables to store different data.
 What if we want to store a collection of data?
 
 In C, we have a  data structure called the array, which can store a fixed size sequential collection of elements of the same type.
